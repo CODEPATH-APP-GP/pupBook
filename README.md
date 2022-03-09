@@ -59,8 +59,8 @@ The app will allow two profiles (The Pet Owner and The Pet Sitter). The feed on 
 ### Schema
 
 
-| Attempt | #1 | #2 |
-| :---: | :---: | :---: |
+| Property | Type | Description |
+| objectId | String | unique id for the user post (default field) |
 | Seconds | 301 | 283 |
 | :---: | :---: | :---: |
 | Seconds | 301 | 283 |
@@ -71,3 +71,12 @@ The app will allow two profiles (The Pet Owner and The Pet Sitter). The feed on 
 | :---: | :---: | :---: |
 | Seconds | 301 | 283 |
 
+		
+		
+author	Pointer to User	image author
+image	File	image that user posts
+caption	String	image caption by author
+commentsCount	Number	number of comments that has been posted to an image
+likesCount	Number	number of likes for the post
+createdAt	DateTime	date when post is created (default field)
+updatedAt	DateTime	date when post is last updated (default field)

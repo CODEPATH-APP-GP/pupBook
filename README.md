@@ -60,7 +60,7 @@ The app will allow two profiles (The Pet Owner and The Pet Sitter). The feed on 
 
 
 | Property | Type | Description |
-| :------------ |:---------------:| -----:|
+| :------- |:---------| :-----|
 | objectId | String | unique id for the user post (default field) |
 | author | Pointer to User | image author |
 | image | File | image that cleint posts |

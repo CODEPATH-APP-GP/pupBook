@@ -1,9 +1,4 @@
 Unit 8: Group Milestone - 
-===
-
-:::info
-
-:::
 
 # PupBook
 

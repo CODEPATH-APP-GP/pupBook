@@ -64,6 +64,7 @@ The app will allow two profiles (The Pet Owner and The Pet Sitter). The feed on 
 | objectId | String | unique id for the user post (default field) |
 | author | Pointer to User | image author |
 | image | File | image that cleint posts |
+| bio | String | medium length paragraph that contains personal information about client/pet sitter |
 | commentsCount | Number | number of pet sitter comments |
 | postedAt | DateTime | date when post is created |
 | commentedAt | DateTime | date when petsitter comments |

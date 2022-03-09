@@ -54,7 +54,7 @@ The app will allow two profiles (The Pet Owner and The Pet Sitter). The feed on 
 
 
 ## Wireframes
-<img src="https://imgur.com/a/e2o0gDw" width=800><br>
+<img src="https://i.imgur.com/kmmebha.jpg" width=800><br>
 
 ### Schema
 

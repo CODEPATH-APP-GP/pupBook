@@ -95,6 +95,7 @@ The app will allow two profiles (The Pet Owner and The Pet Sitter). The feed on 
    - Profile Screen
       - (Read/GET) Query logged in user object
       - (Update/PUT) Update user/petsitter  profile image
- 
+ ### Walkthrough 
+ <img src="https://github.com/CODEPATH-APP-GP/groupProject/blob/main/Pupbook/version1.gif" width=250><br>
 
 	

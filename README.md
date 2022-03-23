@@ -28,7 +28,7 @@ The app will allow two profiles (The Pet Owner and The Pet Sitter). The feed on 
 * two types of users client and petsitter.
 * pet sitters can comment the pictures that the clients post.
 * Profile pages for each user
-* logout and login for both user types
+* [X]logout and login for both user types (Completed)
 
 **Optional Nice-to-have Stories**
 

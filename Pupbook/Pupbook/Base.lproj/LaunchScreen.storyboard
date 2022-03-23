@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zec-lM-bXg">
+                                <rect key="frame" x="186" y="449" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="brandLogo" translatesAutoresizingMaskIntoConstraints="NO" id="0oL-nZ-hTd">
+                                <rect key="frame" x="0.0" y="306" width="414" height="264"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="414" id="K9x-3e-kgP"/>
+                                    <constraint firstAttribute="height" constant="264" id="LPX-ge-Bu2"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.0" green="0.76078431369999999" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0oL-nZ-hTd" secondAttribute="bottom" constant="292" id="4CW-y7-Z9h"/>
+                            <constraint firstItem="0oL-nZ-hTd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="262" id="6UI-2F-5bD"/>
+                            <constraint firstAttribute="trailing" secondItem="0oL-nZ-hTd" secondAttribute="trailing" id="FiB-dN-99w"/>
+                            <constraint firstItem="0oL-nZ-hTd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="262" id="Fx7-fV-exr"/>
+                            <constraint firstItem="0oL-nZ-hTd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="TWq-2J-jNO"/>
+                            <constraint firstItem="Zec-lM-bXg" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="20" symbolic="YES" id="WeI-4G-nn1"/>
+                            <constraint firstItem="0oL-nZ-hTd" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="eAG-Ls-INw"/>
+                            <constraint firstAttribute="trailing" secondItem="Zec-lM-bXg" secondAttribute="trailing" constant="228" id="i0d-xG-5jc"/>
+                            <constraint firstAttribute="bottom" secondItem="Zec-lM-bXg" secondAttribute="bottom" constant="447" id="v05-9N-p63"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="brandLogo" width="986" height="650"/>
+    </resources>
+</document>

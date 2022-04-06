@@ -26,8 +26,8 @@ The app will allow two profiles (The Pet Owner and The Pet Sitter). The feed on 
 **Required Must-have Stories**
 
 * User logs in to access previous posts and comments
-* two types of users client and petsitter.
-* pet sitters can comment the pictures that the clients post.
+* [X]two types of users client and petsitter. 
+* [X]pet sitters can comment the pictures that the clients post. (Completed)
 * Profile pages for each user
 * [X]logout and login for both user types (Completed)
 

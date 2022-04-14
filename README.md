@@ -19,20 +19,15 @@ The app will allow two profiles (The Pet Owner and The Pet Sitter). The feed on 
 - **Scope:** First we would start with encouraging both Pet Owners and Pet Sitters to sign up to populate the feed of our application.
 
 ## Product Spec
-### 1. User Stories (Required and Optional)
+### 1. User Stories
 
-**Required Must-have Stories**
-
-* User logs in to access previous posts and comments
-* [X]two types of users client and petsitter. 
-* [X]pet sitters can comment the pictures that the clients post. (Completed)
-* Profile pages for each user
-* [X]logout and login for both user types (Completed)
-
-**Optional Nice-to-have Stories**
-
-* send a notification to the client when a pet sitter reponds to a post
-* profile screen
+* [x] User logs in to access previous posts and comments.
+* [X] Allows two types of users client and petsitter. 
+* [X] Pet sitters can comment the pictures that the clients post.
+* [X] Includes profile pages for each user
+* [X] Logout and login options for both user types.
+* [X] Send a notification to the client when a pet sitter reponds to a post.
+* [X] Each user has a profile screen.
 
 ### 2. Screen Archetypes 
 

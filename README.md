@@ -1,5 +1,3 @@
-Unit 8: Group Milestone - 
-
 # PupBook
 
 ## Table of Contents
